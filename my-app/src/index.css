@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.top-players {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.player-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.player-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.player-list th, .player-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.player-list th {
+  background-color: #f4f4f4;
+}
